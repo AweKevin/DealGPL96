@@ -12,7 +12,7 @@ This package is a twin package of DealGPL570.
 You can install the released version of DealGPL96 from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("DealGPL96")
+devtools_install_github("AweKevin/DealGPL96")
 ```
 
 ## Example
