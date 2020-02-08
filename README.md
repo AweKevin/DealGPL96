@@ -21,8 +21,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(DealGPL96)
-GEOquery::getGEOSuppFiles("GSE5007", makeDirectory = FALSE, baseDir = tempdir())
-file <- list.files(path = tempdir(), pattern = "GSE5007_RAW.tar", full.names = TRUE)
+file <- system.file("extdata", "GSE5007_RAW.tar", package = "DealGPL96")
 file
 result <- DealGPL96(file = file)
 ```
